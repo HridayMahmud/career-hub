@@ -12,7 +12,7 @@ const Featuredjobs = ({job}) => {
 
       <div className="featuredjobs-des ">
                <div className="border-2 p-6 ">
-               <img className='w-[150px] h-[70px]' src={logo} alt="" />
+               <img className='w-[120px] h-[50px]' src={logo} alt="" />
                <h1 className='mb-2 font-extrabold text-[24px]'>{job_title}</h1>
                <h2 className='mb-4 font-semibold text-xl text-[#757575]'>{company_name}</h2>
                <div className='flex gap-4 mb-4'>

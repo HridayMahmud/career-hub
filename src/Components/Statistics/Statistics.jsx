@@ -1,14 +1,14 @@
 import React from 'react'
 import Homepage from '../Homepage/Homepage'
-import Jobcategory from '../JobCategory/Jobcategory'
-import Featuredjobs from '../Featuredjobs/Featuredjobs'
+
 import Featurejobsdata from '../Featurejobsdata/Featurejobsdata'
+import Jobcategories from '../Jobcategories/Jobcategories'
 
 const Statistics = () => {
   return (
     <div className='px-[120px] '>
      <Homepage></Homepage>
-     <Jobcategory></Jobcategory>
+     <Jobcategories></Jobcategories>
      <Featurejobsdata></Featurejobsdata>
     </div>
   )
